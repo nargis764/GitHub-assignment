@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+
+/* If the text has multiple lines, add the following: */
+#calculator {
+  margin: 80px 0;
+  padding: 10px 30px;
+  width: 300px;
+  height: 380px;
+  line-height: 1.5;
+  display: inline-block;
+  background-color: rgb(34, 34, 34);
+}
+
+#calculator #display {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#calculator .row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#calculator .row button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(102, 102, 102);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  border: none;
+}
+
+#calculator .row .operator {
+  background-color: rgb(255, 140, 0);
+}
+
+#calculator .row #equals {
+  width: 230px;
+  background-color: rgb(204, 204, 204);
+  padding: 5px 0;
+  border-radius: 20px;
+  color: rgb(34, 34, 34);
+}
